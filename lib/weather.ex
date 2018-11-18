@@ -12,7 +12,6 @@ defmodule Weather do
   def main(_argv) do
     weather = fetch_weather()
 
-    IO.inspect(weather)
     IO.puts(format_map(weather))
   end
 
