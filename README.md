@@ -1,21 +1,21 @@
 # Weather
 
-**TODO: Add description**
+CLI for American weather data found at [weather.gov](http://weather.gov/).
+Data provided by the National Oceanic and Atmospheric Association.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `weather` to your list of dependencies in `mix.exs`:
+With [Elixir](https://elixir-lang.org/) installed, run:
 
-```elixir
-def deps do
-  [
-    {:weather, "~> 0.1.0"}
-  ]
-end
+```shell
+mix deps.get
+mix escript.build
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/weather](https://hexdocs.pm/weather).
+## Running
 
+To fetch the latest weather data:
+
+```shell
+./weather
+```
